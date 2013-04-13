@@ -57,10 +57,4 @@ alias contentable_configs='cp config/mongodb.yml.example config/mongodb.yml && c
 #eval "$(rbenv init -)"
 
 export RBENV_ROOT=/usr/local/homebrew/opt/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-# SCRAWL security settings
-#export SCRAWL_USER_PASSWORD='lw@rcs06'
-export SCRAWL_USER_PASSWORD='fr0b0z;66'
-export SCRAWL_SITE_DB_PASSWORD='fr0b0z;66'
-export SCRAWL_SITE_PASSWORD='sCrawlrules7'
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fis
