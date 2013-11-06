@@ -1,5 +1,10 @@
-# Make vim the default editor
-export EDITOR="vim"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/homebrew/bin:$PATH"
+# use sublime
+export EDITOR="sub -w"
+
+#nice commandline
+export PS1='\[\033[0;35m\]\h\[\033[0;33m\] \w\[\033[00m\]: '
+
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
@@ -7,11 +12,3 @@ export MANPAGER="less -X"
 export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
-
-# timestamps for bash history. www.debian-administration.org/users/rossen/weblog/1
-# saved for later analysis
-HISTTIMEFORMAT='%F %T '
-export HISTTIMEFORMAT
-
-# Make some commands not show up in history
-export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"

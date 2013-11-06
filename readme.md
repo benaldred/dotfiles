@@ -2,11 +2,11 @@
 
 This is forked from Paul Irish, from Mathias Bynens. [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
 
-The Readme below needs updating
+The Readme below needs updating. I am trying to sort through it all.
 
 ## install the neccessary apps
 
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+My basic setup is captured in `install-deps.sh` which adds homebrew, rbenv
 
 ## private config
 
@@ -81,7 +81,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/benaldred/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
